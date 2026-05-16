@@ -44,3 +44,42 @@ Dieses Programm ermöglicht es, ein Wertpapierportfolio zu verwalten und die Ren
 - Daten werden über die **Tiingo-API** abgerufen  
 - Portfolio wird lokal als JSON-Datei gespeichert  
 - Renditeberechnung: `((aktueller Preis – Kaufpreis) / Kaufpreis) * 100`
+
+## Nutzung des Wertpapierportfolio
+Um das Wertpapierportfolio verwenden zu können, ist ein Account bei Tiingo erforderlich.
+
+**1. Account erstellen**
+Registriere dich auf der folgenden Website:
+https://www.tiingo.com/
+
+**2. API Token erhalten**
+Nach der Registrierung:
+
+Navigiere im Dashboard zum Bereich Documentation
+Dort findest du deinen persönlichen API Token
+Kopiere diesen Token
+
+**3. Token im Projekt einfügen**
+Öffne im Projekt die Datei:
+
+`Services/ApiService.cs`
+
+Suche folgende Zeile:
+
+`private static readonly string token = "YOUR_TOKEN";`
+
+Ersetze "YOUR_TOKEN" durch deinen persönlichen API Token:
+
+`private static readonly string token = "DEIN_API_TOKEN";`
+**4. Programm starten**
+
+Nach dem Einfügen des Tokens kann das Programm gestartet werden.
+Du kannst nun:
+
+Aktien zum Portfolio hinzufügen
+aktuelle Kurse abrufen
+dein Portfolio verwalten
+Renditen berechnen
+
+*Hinweis*
+Ohne gültigen API Token ist keine Verbindung zur Tiingo-API möglich und das Programm kann keine aktuellen oder historischen Kursdaten laden.
