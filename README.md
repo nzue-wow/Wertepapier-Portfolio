@@ -1,6 +1,6 @@
 # Wertpapierportfolio – Projekt IMS
 
-Dieses Programm ermöglicht es, ein **Wertpapierportfolio** zu verwalten und die **Rendite einzelner Wertpapiere** sowie die **Gesamtentwicklung des Portfolios** zu berechnen. Es handelt sich um ein Konsolenprogramm in C#, das aktuelle Kursdaten aus dem Internet bezieht und die Wertentwicklung übersichtlich anzeigt.
+Dieses Programm ermöglicht es, ein Wertpapierportfolio zu verwalten und die Rendite einzelner Wertpapiere sowie die Gesamtentwicklung des Portfolios zu berechnen. Es handelt sich um ein Konsolenprogramm in C#, das aktuelle Kursdaten aus dem Internet bezieht und die Wertentwicklung übersichtlich anzeigt.
 
 ## Funktionen
 
