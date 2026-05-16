@@ -74,6 +74,7 @@ Suche folgende Zeile:
 Ersetze "YOUR_TOKEN" durch deinen persönlichen API Token:
 
 `private static readonly string token = "DEIN_API_TOKEN";`
+
 **4. Programm starten**
 
 Nach dem Einfügen des Tokens kann das Programm gestartet werden.
