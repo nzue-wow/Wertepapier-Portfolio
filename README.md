@@ -49,10 +49,12 @@ Dieses Programm ermöglicht es, ein Wertpapierportfolio zu verwalten und die Ren
 Um das Wertpapierportfolio verwenden zu können, ist ein Account bei Tiingo erforderlich.
 
 **1. Account erstellen**
+
 Registriere dich auf der folgenden Website:
 https://www.tiingo.com/
 
 **2. API Token erhalten**
+
 Nach der Registrierung:
 
 Navigiere im Dashboard zum Bereich Documentation
@@ -60,6 +62,7 @@ Dort findest du deinen persönlichen API Token
 Kopiere diesen Token
 
 **3. Token im Projekt einfügen**
+
 Öffne im Projekt die Datei:
 
 `Services/ApiService.cs`
