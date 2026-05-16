@@ -86,4 +86,5 @@ dein Portfolio verwalten
 Renditen berechnen
 
 *Hinweis*
+
 Ohne gültigen API Token ist keine Verbindung zur Tiingo-API möglich und das Programm kann keine aktuellen oder historischen Kursdaten laden.
