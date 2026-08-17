@@ -21,6 +21,7 @@ Dieses Programm ermöglicht es, ein Wertpapierportfolio zu verwalten und die Ren
   - Einfache Konsolenanzeige der Wertentwicklung
 
  *Beispiel*
+ 
   <img width="679" height="1354" alt="image" src="https://github.com/user-attachments/assets/1763453b-91c7-43e5-bc8b-53c164239396" />
 
 
